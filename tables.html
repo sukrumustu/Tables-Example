@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+    <style>
+        table {
+            width: 100%;
+            border-style: groove;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color:lightblue">
+    <h1><i>Tablolar</i></h1>
+    <hr>
+    <table border="1">
+        <caption style="font-size:2 rem,">Haftalık Dersler</caption>
+        <thead>
+            <tr style>
+                <th>Günler</th>
+                <th>Dersler</th>
+                <th>Notlar</th>
+            </tr>
+        </thead>
+
+        <tbody style="background-color:white">
+            <tr>
+                <td>Pazartesi</td>
+                <td>HTML</td>
+                <td rowspan="3">97</td>
+
+            </tr>
+            <tr>
+                <td>Salı</td>
+                <td>Git</td>
+
+
+            </tr>
+            <tr>
+                <td>Çarşamba</td>
+                <td>Javascript</td>
+
+
+            </tr>
+            <tr>
+                <td rowspan="2">Perşembe</td>
+                <td>React</td>
+                <td>99</td>
+
+            </tr>
+            <tr>
+
+                <td>Javascript</td>
+                <td>100</td>
+
+            </tr>
+            <tr>
+                <td>Cuma</td>
+                <td>Django</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td colspan="3">Cumartesi Tatil</td>
+
+            </tr>
+        </tbody>
+
+    </table>
+
+
+</body>
+
+</html>
